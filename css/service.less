@@ -1,0 +1,136 @@
+@import "public.less";
+
+.service-banner{
+    width: 100%;
+    background: url(../img/service-banner.jpg) center no-repeat;
+    height: 440px;
+    min-width: 1100px;
+    .s-ban{
+        .wd1100;
+        .s-title{
+            .line-height(50px);
+            font-size: 44px;
+            color: #fff;
+            padding-top: 150px;
+        }
+        .s-two-title{
+            height: 46px;
+            background: url(../img/service-t.jpg) left center no-repeat;
+            margin-top: 40px;
+        }
+    }    
+}
+.service-info{
+    border-bottom: solid 2px #ECECEB;
+    height: 72px;
+    .service-tab{
+        .wd1100;
+        ul{
+            li{
+                &:first-child{
+                    border-left: 0px;
+                }
+                .fl;
+                border-left: solid 1px #ECECEB;
+                width: 274px;
+                text-align: center;
+                color: #444;
+                padding: 12px 0px;
+                cursor: pointer;
+                .t{
+                    .line-height(28px);
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                &.on{
+                    color: @red;
+                    border-bottom: solid 2px @red;
+                }
+            }
+        }
+    }
+}
+.service-lists{
+    min-width: 1100px;
+    background-color: #F6F6F6;
+    padding:70px 0 150px;
+    color: #444;
+    .title{
+        font-size: 24px;
+        .line-height(30px);
+        .wd1100;
+    }
+    .service-list{
+        .wd1100;
+        .con{
+            font-size: 14px;
+            p{
+                margin-top: 15px;
+                line-height: 29px;
+            }
+        }
+    }
+}
+
+/*-------解决方案--------*/
+.service-banner{
+    background: url(../img/solution-banner.jpg) center no-repeat;
+    .s-ban{
+        .s-two-title{
+            background: url(../img/solution-t.jpg) left center no-repeat;
+        }
+    }    
+}
+.service-info{
+    min-width: 1100px;
+    .solution-tab{
+        ul{
+            li{
+                width: auto;
+                padding: 12px 36px;
+            }
+        }
+    }
+}
+.service-lists{
+    .service-list{
+        .con{
+            padding-right: 360px;
+            position: relative;
+            z-index: 3;
+            i{
+                display: inline-block;
+                position: absolute;
+                top: 0px;
+                right: 10px;
+                height: 181px;
+                background: url(../img/sprite-solution.png) 0 0 no-repeat;
+                &.icon-trading{
+                    top: 10px;
+                    width: 269px;
+                    background-position: -929px 0px;
+                }
+                &.icon-customer{
+                    width: 198px;
+                    background-position: -3px 0px;
+                }
+                &.icon-marketing{
+                    top: 50px;
+                    width: 198px;
+                    background-position: -728px 0px;
+                }
+                &.icon-business{
+                    width: 241px;
+                    background-position: -478px 0px;
+                }
+                &.icon-travel{
+                    top: 30px;
+                    width: 241px;
+                    background-position: -204px 0px;
+                }
+            }
+        }
+    }
+}

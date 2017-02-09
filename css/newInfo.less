@@ -1,0 +1,35 @@
+@import 'public.less';
+
+/*新闻动态*/
+.newInfo{
+    border-bottom: solid 2px #ECECEB;
+    height: 72px;
+    .newInfo-tab{
+        .wd1100;
+        ul{
+            li{
+                &:first-child{
+                    border-left: 0px;
+                }
+                .fl;
+                border-left: solid 1px #ECECEB;
+                width: 549px;
+                text-align: center;
+                color: #444;
+                padding: 12px 0px;
+                cursor: pointer;
+                .t{
+                    .line-height(28px);
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                &.on{
+                    color: @red;
+                    border-bottom: solid 2px @red;
+                }
+            }
+        }
+    }
+}

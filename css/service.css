@@ -1,0 +1,376 @@
+/*声明变量start*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.wd1100 {
+  width: 1100px;
+  margin: 0 auto;
+}
+.mr0 {
+  margin-right: 0px;
+}
+.index-title {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.index-two-title {
+  width: 400px;
+  margin: 18px auto 0;
+  height: 16px;
+  background: url(../img/sprite-en.png) 0px -2px no-repeat;
+}
+/*声明变量end*/
+/*头部*/
+.index-top {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+.index-top .top-l {
+  float: left;
+}
+.index-top .top-r {
+  float: right;
+  position: relative;
+  z-index: 8;
+}
+.index-top .top-r ul li {
+  float: left;
+  cursor: pointer;
+  padding: 16px 5px 0;
+  height: 48px;
+  margin-right: 40px;
+}
+.index-top .top-r ul li > a {
+  font-size: 16px;
+  color: #444;
+}
+.index-top .top-r ul li:hover {
+  border-bottom: solid 2px #e4000d;
+}
+.index-top .top-r ul li:hover a {
+  color: #e4000d;
+}
+.index-top .top-r ul li.active {
+  border-bottom: solid 2px #e4000d;
+}
+.index-top .top-r ul li.active a {
+  color: #e4000d;
+}
+.index-top .top-r ul li.mr0 {
+  margin-right: 0px;
+}
+.index-top .top-r ul li .nav-list {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  left: 0px;
+  top: 64px;
+  width: 766px;
+  padding: 10px 0px;
+}
+.index-top .top-r ul li .nav-list .nav-list-l {
+  width: 340px;
+  padding: 30px 0px 10px;
+}
+.index-top .top-r ul li .nav-list .nav-list-l h5 {
+  font-size: 20px;
+  color: #e4000d;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+.index-top .top-r ul li .nav-list .nav-list-l .item {
+  margin-top: 30px;
+}
+.index-top .top-r ul li .nav-list .nav-list-l .item a {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #444;
+  width: 167px;
+}
+.index-top .top-r ul li .nav-list .nav-list-l .item a:hover {
+  color: #e4000d;
+  text-decoration: underline;
+}
+/*二级菜单*/
+.two-nav {
+  display: none;
+  position: absolute;
+  z-index: 7;
+  top: 99px;
+  width: 100%;
+  background-color: #fff;
+  border-top: solid 1px #ECECEC;
+}
+/*底部*/
+.index-footer {
+  width: 100%;
+  min-width: 1100px;
+  padding: 37px 0px;
+  background-color: #313539;
+}
+.index-footer .index-foot {
+  width: 1100px;
+  margin: 0 auto;
+}
+.index-footer .index-foot dl {
+  float: left;
+  border-right: solid 1px #4C5158;
+  padding: 0px 55px;
+  min-height: 144px;
+  color: #7d8390;
+}
+.index-footer .index-foot dl:first-child {
+  padding-left: 0;
+}
+.index-footer .index-foot dl:hover dt {
+  color: #fff;
+}
+.index-footer .index-foot dl dt {
+  transition: all .3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -ms-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.index-footer .index-foot dl dd {
+  height: 26px;
+  line-height: 26px;
+}
+.index-footer .index-foot dl dd a {
+  transition: all .3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -ms-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  font-size: 12px;
+  color: #7d8390;
+}
+.index-footer .index-foot dl dd a:hover {
+  color: #fff;
+}
+.index-footer .index-foot .pywx {
+  float: left;
+  padding-left: 58px;
+  width: 145px;
+}
+.index-footer .index-foot .pywx .pywx-t {
+  font-size: 16px;
+  color: #7d8390;
+}
+.index-footer .index-foot .pywx p {
+  font-size: 12px;
+  color: #f35c65;
+  margin-top: 15px;
+  height: 34px;
+  line-height: 34px;
+}
+.index-footer .index-foot .suggest {
+  float: right;
+  width: 282px;
+}
+.index-footer .index-foot .suggest .sug {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.index-footer .index-foot .suggest .sug:first-child {
+  margin-top: 0;
+}
+.index-footer .index-foot .suggest .sug #sug-area {
+  height: 60px;
+  width: 266px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: solid 1px #636972;
+  color: #7d8390;
+  background-color: transparent;
+  padding: 7px;
+}
+.index-footer .index-foot .suggest .sug input {
+  width: 266px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.index-footer .index-foot .suggest .sug input[type=text] {
+  border: solid 1px #636972;
+  color: #7d8390;
+  background-color: transparent;
+  padding: 7px;
+}
+.index-footer .index-foot .suggest .sug input.sugSub {
+  height: 36px;
+  line-height: 36px;
+  transition: all .3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -ms-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  background-color: #464B54;
+  color: #868d9e;
+  width: 282px;
+  cursor: pointer;
+}
+.index-footer .index-foot .suggest .sug input.sugSub:hover {
+  background-color: #868d9e;
+  color: #7d8390;
+}
+.index-bottomer {
+  width: 100%;
+  min-width: 1100px;
+  border-top: solid 1px #515355;
+  background-color: #333;
+}
+.index-bottomer .index-bottom {
+  width: 1100px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.index-bottomer .index-bottom,
+.index-bottomer .index-bottom a {
+  font-size: 12px;
+  color: #7d8390;
+}
+.service-banner {
+  width: 100%;
+  background: url(../img/service-banner.jpg) center no-repeat;
+  height: 440px;
+  min-width: 1100px;
+}
+.service-banner .s-ban {
+  width: 1100px;
+  margin: 0 auto;
+}
+.service-banner .s-ban .s-title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 44px;
+  color: #fff;
+  padding-top: 150px;
+}
+.service-banner .s-ban .s-two-title {
+  height: 46px;
+  background: url(../img/service-t.jpg) left center no-repeat;
+  margin-top: 40px;
+}
+.service-info {
+  border-bottom: solid 2px #ECECEB;
+  height: 72px;
+}
+.service-info .service-tab {
+  width: 1100px;
+  margin: 0 auto;
+}
+.service-info .service-tab ul li {
+  float: left;
+  border-left: solid 1px #ECECEB;
+  width: 274px;
+  text-align: center;
+  color: #444;
+  padding: 12px 0px;
+  cursor: pointer;
+}
+.service-info .service-tab ul li:first-child {
+  border-left: 0px;
+}
+.service-info .service-tab ul li .t {
+  height: 28px;
+  line-height: 28px;
+  font-size: 18px;
+}
+.service-info .service-tab ul li p {
+  font-size: 12px;
+}
+.service-info .service-tab ul li.on {
+  color: #e4000d;
+  border-bottom: solid 2px #e4000d;
+}
+.service-lists {
+  min-width: 1100px;
+  background-color: #F6F6F6;
+  padding: 70px 0 150px;
+  color: #444;
+}
+.service-lists .title {
+  font-size: 24px;
+  height: 30px;
+  line-height: 30px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.service-lists .service-list {
+  width: 1100px;
+  margin: 0 auto;
+}
+.service-lists .service-list .con {
+  font-size: 14px;
+}
+.service-lists .service-list .con p {
+  margin-top: 15px;
+  line-height: 29px;
+}
+/*-------解决方案--------*/
+.service-banner {
+  background: url(../img/solution-banner.jpg) center no-repeat;
+}
+.service-banner .s-ban .s-two-title {
+  background: url(../img/solution-t.jpg) left center no-repeat;
+}
+.service-info {
+  min-width: 1100px;
+}
+.service-info .solution-tab ul li {
+  width: auto;
+  padding: 12px 36px;
+}
+.service-lists .service-list .con {
+  padding-right: 360px;
+  position: relative;
+  z-index: 3;
+}
+.service-lists .service-list .con i {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  height: 181px;
+  background: url(../img/sprite-solution.png) 0 0 no-repeat;
+}
+.service-lists .service-list .con i.icon-trading {
+  top: 10px;
+  width: 269px;
+  background-position: -929px 0px;
+}
+.service-lists .service-list .con i.icon-customer {
+  width: 198px;
+  background-position: -3px 0px;
+}
+.service-lists .service-list .con i.icon-marketing {
+  top: 50px;
+  width: 198px;
+  background-position: -728px 0px;
+}
+.service-lists .service-list .con i.icon-business {
+  width: 241px;
+  background-position: -478px 0px;
+}
+.service-lists .service-list .con i.icon-travel {
+  top: 30px;
+  width: 241px;
+  background-position: -204px 0px;
+}
+/*# sourceMappingURL=service.css.map */
